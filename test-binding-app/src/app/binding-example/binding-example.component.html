@@ -1,0 +1,4 @@
+<p>Binding Example</p>
+<input type="text" class="form-control" placeholder="Enter name here" style="width: 100% !important;" [(ngModel)]="username">
+<p>{{username}}</p>
+<button class="btn btn-primary" (click)="onClearClick()" [disabled]="!username">Clear</button>
